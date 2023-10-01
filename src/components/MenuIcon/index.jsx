@@ -1,5 +1,4 @@
 import { ICON_TYPE } from "../../constants";
-import useModal from "../../hooks/useModal";
 
 const MenuIcon = ({ icon, mode }) => {
 	return (

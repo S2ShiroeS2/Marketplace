@@ -2,7 +2,6 @@ import React from "react";
 import { createPortal } from "react-dom";
 import "./style.css";
 import MenuIcon from "../MenuIcon";
-import useModal from "../../hooks/useModal";
 
 const MenuModal = ({ isShowing, hide, dataModal, mode, label }) => {
 	return isShowing
